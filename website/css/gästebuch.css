@@ -1,0 +1,12 @@
+textarea  {
+  border: solid;
+  border-style: inset;
+  width: 75%;
+  height: 30%;
+}
+
+input type="text" {
+  border-color: inherit;
+  margin: 6px
+
+}
