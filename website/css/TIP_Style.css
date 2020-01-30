@@ -1,0 +1,171 @@
+body.b {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family:'Helvetica';
+	color: black;
+	background-color: #EEEEEE;
+}
+
+div{
+	font-family:'Helvetica';
+}
+
+span.menuhighlight {
+	font-weight: bold;
+}
+
+div.entry {
+	padding: 5px;
+	margin-right: 5px;
+}
+
+div.author {
+	font-weight: bold;
+	float: left;
+}
+
+div.date {
+	text-align: right;
+	width:100%;
+}
+
+div.text {
+	margin-top: 0;
+	clear:left;
+}
+
+
+div.even {
+	background-color: #E2E9FF;
+}
+
+
+.bild {
+	top: 3%;
+	position: fixed;
+	left: 20%;
+	width: 20%;
+	height: 70%;
+}
+
+.disclaimer {
+	top: 0%;
+	position: absolute;
+	width: 400px;
+	height: 60px;
+	overflow: auto;
+	display: block;
+	font:14px Helvetica;
+	color: #000000;
+	background-color: #FFFF99;
+}
+
+.content {
+	display: block;
+	position: fixed;
+  left: 25%;
+	top: 25%;
+  bottom: 25%
+	overflow: auto;
+	background-color: #FFFFFF;
+	padding: 1%;
+}
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: silver;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  }
+
+    li a {
+      display: block;
+      color: black;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+      li a.active {
+        background-color: green;
+        color: white;
+      }
+
+      li a:hover:not(.active) {
+        background-color: grey;
+        color: white;
+      }
+
+
+
+h1 {
+	margin: 10px;
+	font:40px Helvetica;
+	color: black;
+	text-align: center;
+	font-variant:small-caps;
+	font-weight: bold;
+	text-shadow:blue 3px 2px 4px;
+	top: 10%;
+	left: 55%;
+	position: absolute;
+}
+
+h2 {
+	font-variant:small-caps;
+}
+
+
+
+a{
+	color: black;
+	text-decoration:underline;
+}
+
+a:visited {
+	color:black;
+}
+
+a:focus {
+	color:#3366FF;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:#3366FF;
+	text-decoration:underline;
+
+}
+
+a:active {
+	color:#3366FF;
+	text-decoration:underline;
+}
+
+input.text {
+	border-width: 1px;
+	border-color: #065205;
+	border-style: solid;
+	background-color: #ffffff;
+	background-position: right;
+}
+
+input.submit{
+	border:1px solid #065205;
+	background-image: url('img/ok.png');
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+	background-position: right 50%;
+	height: 20px;
+	width: 100px;
+}
+
+textarea {
+	border:1px solid #065205;
+	background-color: #ffffff;
+	width: 450px;
+	height: 300px;
+}

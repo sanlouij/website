@@ -11,6 +11,10 @@ body {
       padding: 1px 16px;
       height: 500px;
     }
+    div [class= "bild"] {
+      position: fixed;
+    }
+
 
       ul {
         list-style-type: none;
